@@ -12,4 +12,8 @@ if __name__ == "__main__":
     print("simple calculator running in docker")
     a= float(input("Enter first number: "))
     b= float(input("Enter second number: "))
+    print("addition:", add(a, b))
+    print("subtraction:", subtract(a, b))
+    print("multiplication:", multiply(a, b))
+    print("division:", divide(a, b))
     
